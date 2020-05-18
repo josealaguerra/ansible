@@ -1,0 +1,11 @@
+
+# comando nnormal
+# sudo apt install nginx
+
+
+#comando ad-hoc
+## validar que haga ping a esta maqiuna virtual
+ansible jag.gt -m ping
+
+
+
