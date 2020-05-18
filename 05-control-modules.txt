@@ -1,0 +1,12 @@
+
+#instalar vim para 
+ansible jag.gt - apt -a 'name=vim state=present' -b -K
+
+
+#present - instalado
+#absent- no instalado
+#latest -ultima versión
+
+
+
+
