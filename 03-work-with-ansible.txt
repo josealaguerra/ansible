@@ -1,0 +1,19 @@
+
+
+# modify this file
+sudo vim  /etc/ansible/hosts
+
+
+# db[1:3].jag.gt
+
+# db1.jag.gt
+# db2.jag.gt
+# db3.jag.gt
+
+## [webSrv]
+## web1.jag.gt
+## web2.jag.gt
+
+## [dbSrv]
+## db1.jag.gt
+
