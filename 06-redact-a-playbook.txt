@@ -1,0 +1,20 @@
+#create file tareas. YAML
+vim tareas.yml
+
+
+
+hosts all
+
+tasks
+  name instala vim
+  apt  name=vim state=present
+  become true
+  name  saluda
+  shell echo hola
+
+
+# ejecutar playbook
+# parametro -K es para que te pida la contraseña de super usuario (root) de tu VM
+ansible-playbook tareas-yml -K
+
+
